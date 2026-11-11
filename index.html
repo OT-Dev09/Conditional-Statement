@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="sex">
+    <div id="display"></div>
+    <button onclick="search()">search</button>
+
+
+    <script>
+        // if (2+2 == 4) {
+        //     console.log("Correct")
+        // }
+
+
+        // let drink = "fanta"
+        // if (drink == "coke") {
+        //     console.log('shey fanta no dey?')
+        // }else if (drink == 'sprite'){
+        //     console.log('nah fanta i wan buy');
+            
+        // }else if (drink == "pepsi") {
+        //     console.log('im going jhare');
+            
+        // }else {
+        //     console.log("i'll buy coke");
+            
+        // }
+
+        
+        function search() {
+            let userInput = document.getElementById('sex').value 
+            let displayArea = document.getElementById('display')
+            // displayArea.innerHTML = `<p>${userInput}</p>`
+            
+            // let userInput = "male"
+            if (userInput != "male") {
+                displayArea.innerHTML = `<p> are you are female? </p>`
+            }
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+
+  <div class="modal fade" id="welcomeModal" tabindex="-1" aria-label="Connect with the developer"
+       aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center" style="border: 2px solid #4b5320;">
+        <div class="modal-body py-4 px-4">
+          <p class="mb-2">Connect With The Developer on TIKTOK@
+            <a href="https://www.tiktok.com/@yourusername" target="_blank" rel="noopener noreferrer">Click-Me</a>
+          </p>
+          <p class="mb-4">on X/Twitter@
+            <a href="https://x.com/yourusername" target="_blank" rel="noopener noreferrer">Click-Me</a>
+          </p>
+          <button type="button" id="welcomeBtn" class="btn btn-olive btn-lg px-5" data-bs-dismiss="modal">Continue</button>
+        </div>
+      </div>
+    </div>
+  </div>
